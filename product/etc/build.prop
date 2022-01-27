@@ -1,0 +1,67 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=realme
+ro.product.product.device=RMX2020
+ro.product.product.manufacturer=realme
+ro.product.product.model=Realme G70 Series
+ro.product.product.name=arrow_RMX2020
+ro.product.build.date=Sun Jan  9 12:58:10 UTC 2022
+ro.product.build.date.utc=1641733090
+ro.product.build.fingerprint=google/coral/coral:12/SQ1A.220105.002/7961164:user/release-keys
+ro.product.build.id=SQ1D.211205.017
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.neolit.20220109.125950
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=31
+####################################
+# from device/realme/RMX2020/product.prop
+####################################
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
+# Privapp permissions whitelisting
+ro.control_privapp_permissions=log
+# One Handed Mode
+ro.support_one_handed_mode=true
+# Kill Logspams
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.com.google.acsa=true
+ro.com.google.gmsversion=12_beta
+setupwizard.feature.baseline_setupwizard_enabled=true
+ro.setupwizard.rotation_locked=true
+setupwizard.enable_assist_gesture_training=true
+setupwizard.theme=glif_v3_light
+setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false
+setupwizard.feature.show_pixel_tos=false
+ro.opa.eligible_device=true
+ro.com.google.clientidbase=android-google
+ro.error.receiver.system.apps=com.google.android.gms
+ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.setupwizard.enterprise_mode=1
+setupwizard.feature.predeferred_enabled=false
+ro.setupwizard.mode=OPTIONAL
+ro.control_privapp_permissions=log
+ro.com.google.ime.kb_pad_port_b=1
+ro.support_one_handed_mode=true
+ro.config.alarm_alert=Bright_morning.ogg
+ro.config.notification_sound=End_note.ogg
+ro.config.ringtone=The_big_adventure.ogg
+# Auto-added by post_process_props.py
+persist.sys.usb.config=adb
+# end of file
